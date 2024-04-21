@@ -1,24 +1,34 @@
-# Weather Application
-
-This is a simple weather application created in Python. It allows users to enter a city name and view the current weather forecast for that city.
+# Python Weather Application
+## Description
+This Python script provides a simple simulation of a weather application. It allows users to input the name of a city and receive the current weather data for that location. The application covers a predefined list of cities (New York, London, Tokyo, Sydney) and generates random temperature values within specific ranges for each city, along with a fixed weather description.
 
 ## Features
+- City Weather Lookup: Users can enter the name of one of the supported cities to get the current weather status, including temperature and general conditions.
+- Randomized Temperature: The application generates a random temperature for a bit of variability, simulating different weather conditions each time it's run.
 
-- **Input City:** Users can input the name of a city.
-- **Display Weather:** The application displays the current temperature and weather description for the entered city.
+## Supported Cities
+- New York
+- London
+- Tokyo
+- Sydney
 
-## Usage
+## How to Run the Application
+### Prerequisites
+Ensure you have Python installed on your machine.
 
-1. Run the `weather_application.py` file.
-2. Enter the name of the city when prompted.
-3. View the current weather forecast for the entered city.
+### Running the Script
+#### 1. Clone the Repository:
+git clone:  https://github.com/regmibhuwan/Weather_Application.git
 
-## Requirements
+#### 2. Navigate to the Directory:
+cd Weather_Application
 
-- Python 3.12.1
+#### 3. Execute the Script:
+python weather_application.py
 
-## Setup
+## Contributing
+Contributions to this project are welcome! Whether you have enhancements, bug fixes, or new features in mind, please feel free to fork the repository and submit a pull request.
 
-1. Clone the repository to your local machine.
-2. Install the required dependencies (if any).
-3. Run the `weather.py` file.
+
+## Contact
+For any additional questions or comments, please email regmibhuwan555@gmail.com. 
